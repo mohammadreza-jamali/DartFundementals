@@ -31,11 +31,11 @@ loop conreol statement
 */
 void main(List<String> args) {
 // for loop
-  // for (var i = 0; i < 10; i++) {
-  //     if (i == 5) break;
-  //   print("output $i");
+  for (var i = 0; i < 10; i++) {
+      if (i == 5) break;
+    print("output $i");
     
-  // }
+  }
 
 // for… in loop
   // for (var item in List.generate(10, (i) => i)) {
